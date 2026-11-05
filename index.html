@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8f7f3">
+<meta name="description" content="A reusable magnetic drawing board with a stylus and 10 double-sided pattern cards.">
+<title>Dot & Play — Magnetic Drawing Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">A simple little tool for big ideas.</div>
+<header class="site-header">
+<a class="brand" href="#"><span class="brand-mark">d.</span><span>dot <b>&</b> play</span></a>
+<nav><a href="#details">How it works</a><a href="#specs">Details</a><a href="#faq">FAQ</a></nav>
+<button class="cart-button" id="cart-open">Bag <span id="cart-count">0</span></button>
+</header>
+<main>
+<section class="product-layout">
+<div class="visual-column">
+<div class="photo-wrap"><span class="photo-note">DRAW · ERASE · START AGAIN</span>
+<img id="main-image" src="assets/product-overview.jpg" alt="Mini MagPad magnetic drawing board set with stylus and pattern cards">
+</div>
+<div class="thumbs" aria-label="Product photos">
+<button class="thumb active" data-image="assets/product-overview.jpg" aria-label="Product set overview"><img src="assets/product-overview.jpg" alt=""></button>
+<button class="thumb" data-image="assets/product-dimensions.jpg" aria-label="Product dimensions"><img src="assets/product-dimensions.jpg" alt=""></button>
+<button class="thumb" data-image="assets/how-it-works.jpg" aria-label="How the board works"><img src="assets/how-it-works.jpg" alt=""></button>
+<button class="thumb" data-image="assets/colour-red.jpg" aria-label="Red board"><img src="assets/colour-red.jpg" alt=""></button>
+<button class="thumb" data-image="assets/colour-black.jpg" aria-label="Black board"><img src="assets/colour-black.jpg" alt=""></button>
+</div>
+<p class="image-caption">Supplier product photos from the listing you shared.</p>
+</div>
+<div class="product-info">
+<p class="eyebrow">THE MINI MAGPAD</p>
+<h1>Little dots.<br><em>Big ideas.</em></h1>
+<p class="intro">A hands-on magnetic drawing board for doodling, tracing simple patterns and starting all over again. No paper, no paint, no batteries.</p>
+<div class="price-line"><span class="price" id="price">RM 49.90</span><span class="price-note">Preview selling price · not final</span></div>
+<div class="rule"></div>
+<p class="option-label">Choose a colour</p>
+<div class="swatches" id="swatches">
+<button class="swatch active" data-colour="Red" style="--swatch:#e94e50" aria-label="Red" title="Red"></button>
+<button class="swatch" data-colour="Black" style="--swatch:#25282b" aria-label="Black" title="Black"></button>
+<button class="swatch" data-colour="Blue" style="--swatch:#2469bd" aria-label="Blue" title="Blue"></button>
+<button class="swatch" data-colour="Turquoise" style="--swatch:#32b6b4" aria-label="Turquoise" title="Turquoise"></button>
+<button class="swatch" data-colour="Peach red" style="--swatch:#e88b7d" aria-label="Peach red" title="Peach red"></button>
+<button class="swatch" data-colour="Pink" style="--swatch:#e78ab5" aria-label="Pink" title="Pink"></button>
+<button class="swatch" data-colour="Light yellow" style="--swatch:#ead36c" aria-label="Light yellow" title="Light yellow"></button>
+<button class="swatch" data-colour="Green" style="--swatch:#5c9d6a" aria-label="Green" title="Green"></button>
+<button class="swatch" data-colour="Light green" style="--swatch:#a9c9a0" aria-label="Light green" title="Light green"></button>
+<button class="swatch" data-colour="Light blue" style="--swatch:#83b9db" aria-label="Light blue" title="Light blue"></button>
+<button class="swatch" data-colour="Navy blue" style="--swatch:#243e72" aria-label="Navy blue" title="Navy blue"></button>
+</div>
+<p class="selected-colour">Selected: <strong id="selected-colour">Red</strong></p>
+<ul class="quick-points">
+<li><span class="check">✓</span> 1 magnetic drawing board and 1 stylus</li>
+<li><span class="check">✓</span> 10 double-sided cards — 20 designs</li>
+<li><span class="check">✓</span> Reusable magnetic dot surface</li>
+<li><span class="check">✓</span> No batteries needed · recommended 3+</li>
+</ul>
+<div class="purchase-row"><div class="quantity"><button id="qty-minus" aria-label="Decrease quantity">−</button><output id="qty">1</output><button id="qty-plus" aria-label="Increase quantity">+</button></div><button class="add-button" id="add-to-bag">Add to bag <span>↗</span></button></div>
+<p class="checkout-note">Store preview only. Checkout and delivery options will be added after supplier and payment setup.</p>
+<div class="trust-row"><span>Reusable play</span><span>Compact size</span><span>Screen-free activity</span></div>
+</div>
+</section>
+
+<section class="detail-band" id="details">
+<div class="section-heading"><p class="eyebrow">HOW IT WORKS</p><h2>Draw. Slide. Start again.</h2><p class="section-intro">The stylus moves the magnetic dots to the surface to make simple pictures and patterns. Use the cards for ideas, or make up your own.</p></div>
+<div class="detail-grid">
+<article><span class="detail-number">01</span><h3>Pick a pattern</h3><p>Choose one of the double-sided activity cards for a design to follow.</p></article>
+<article><span class="detail-number">02</span><h3>Trace with the stylus</h3><p>Move the magnetic pen across the dot grid to create a picture on the board.</p></article>
+<article><span class="detail-number">03</span><h3>Erase and repeat</h3><p>Slide to erase the dots and clear the board for another round of drawing.</p></article>
+</div>
+</section>
+
+<section class="spec-section" id="specs"><div><p class="eyebrow">PRODUCT DETAILS</p><h2>The useful bits.</h2></div>
+<div class="spec-list">
+<div><span>Product</span><strong>Mini magnetic drawing board</strong></div>
+<div><span>Board size</span><strong>21.5 × 17.5 × 1.2 cm</strong></div>
+<div><span>Listed weight</span><strong>Approx. 400 g</strong></div>
+<div><span>Material</span><strong>Plastic (as stated by supplier)</strong></div>
+<div><span>Power</span><strong>No battery required</strong></div>
+<div><span>In the box</span><strong>1 board, 1 stylus, 10 double-sided cards</strong></div>
+<div><span>Age guidance</span><strong>3 years and up</strong></div>
+</div></section>
+
+<section class="faq-section" id="faq"><p class="eyebrow">GOOD TO KNOW</p><h2>Before playtime.</h2>
+<div class="faq-item"><h3>What comes in the set?</h3><p>The supplier listing specifies one magnetic board, one stylus pen and ten double-sided cards (20 designs).</p></div>
+<div class="faq-item"><h3>Does it need batteries?</h3><p>No. The listing states that the board is not electric and does not require batteries.</p></div>
+<div class="faq-item"><h3>What size is the board?</h3><p>Approximately 21.5 × 17.5 × 1.2 cm. The supplier lists the product weight as approximately 400 g.</p></div>
+<div class="faq-item"><h3>What age is it for?</h3><p>The listing recommends it for ages 3 and up. Adult supervision is recommended during play.</p></div>
+<div class="faq-item"><h3>When can I order?</h3><p>This is a storefront preview. Secure checkout, shipping rates, delivery estimates and returns information will be added before launch.</p></div>
+</section>
+</main>
+<footer><a class="brand footer-brand" href="#"><span class="brand-mark">d.</span><span>dot <b>&</b> play</span></a><p>Small moments. Big imaginations.</p><small>© <span id="year"></span> Dot & Play. Store preview.</small></footer>
+<div class="cart-overlay" id="cart-overlay" hidden><div class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+<div class="cart-head"><h2 id="cart-title">Your bag</h2><button id="cart-close" aria-label="Close bag">×</button></div>
+<div id="cart-content" class="cart-content"><p class="empty-cart">Your bag is empty for now.</p></div>
+<div class="cart-bottom"><div class="subtotal"><span>Subtotal</span><strong id="subtotal">RM 0.00</strong></div><button class="checkout-button" disabled>Checkout opens at launch</button><p>Payments are not enabled in this preview.</p></div>
+</div></div><div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="script.js"></script>
+</body></html>
